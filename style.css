@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0 ;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    
+}
+
+h1 {
+    font-size: 96px;
+    font-weight: 900;
+    color:  rgb(7, 6, 4);
+    text-align: center;
+}
+
+body {
+    background-color: #ECF0F1;
+    transition: background-color 1s;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+img {
+    border-radius: 15px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    border: none;           /* Tira a borda 3D feia */
+    padding: 15px 32px;     /* Engorda o botão (Espaço interno) */
+    text-align: center;     /* Centraliza texto */
+    text-decoration: none;  /* Tira sublinhado */
+    display: inline-block;  /* Ficam um do lado do outro */
+    font-size: 16px;        /* Tamanho da letra */
+    margin: 0 auto;        /* Espacinho entre eles */
+    cursor: pointer;        /* Mãozinha quando passa o mouse */
+    border-radius: 20px;    /* Arredonda as pontas (IMPORTANTE!) */
+    transition: transform 0.2s; /* Animação suave de clique */
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:hover {
+    background-color: rgb(105, 58, 36);
+}
+
+#btnHappy {
+    background-color: #2C3E50;
+    transition: background-color 0.2s;
+}
+#btnHappy:hover {
+    background-color: #F1C40F;
+}
+#btnSad {
+    background-color: #2C3E50;
+    transition: background-color 0.2s;
+}
+#btnSad:hover {
+    background-color: #3498DB;
+    color: white;
+}
+#btnNerd {
+    background-color: #2C3E50;
+    transition: background-color 0.2s;
+}
+#btnNerd:hover {
+    background-color: #E74C3C;
+    color: white;
+}
+#btnAura {
+    background-color: #2C3E50;
+    transition: background-color 0.2s;
+}
+#btnAura:hover {
+    background-color: #9B59B6;
+    color: white;
+}
