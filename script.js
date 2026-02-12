@@ -19,10 +19,10 @@ function botaoFeliz () {
 function botaoTriste () {
     document.body.style.backgroundColor = "#3498DB";
     PlayerTxt.style.color = "white";
-    PlayerImg.src = "https://i.scdn.co/image/ab67616d00001e0298b1c6c0d05f8841f08a9eca";
+    PlayerImg.src = "https://i.scdn.co/image/ab67616d00001e02f255d26b20b46200b99a6cc1";
     PlayerTxt.innerText = "";
     PlayerTxt.innerText = "Among";
-    musica.src = "/SpotiDownloader.com - Asleep Among Endives - Ichiko Aoba.mp3"
+    musica.src = "/MerdasAcontecem.mp3"
 }
 
 function botaoNerd () {
@@ -51,4 +51,5 @@ function botaoAura () {
 bHappy.addEventListener('click', botaoFeliz)
 bSad.addEventListener('click', botaoTriste)
 bNerd.addEventListener('click', botaoNerd)
+
 bAura.addEventListener('click', botaoAura)
