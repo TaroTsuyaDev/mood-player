@@ -22,7 +22,7 @@ function botaoTriste () {
     PlayerImg.src = "https://i.scdn.co/image/ab67616d00001e02f255d26b20b46200b99a6cc1";
     PlayerTxt.innerText = "";
     PlayerTxt.innerText = "Among";
-    musica.src = "/MerdasAcontecem.mp3"
+    musica.src = "MerdasAcontecem.mp3"
 }
 
 function botaoNerd () {
@@ -53,3 +53,4 @@ bSad.addEventListener('click', botaoTriste)
 bNerd.addEventListener('click', botaoNerd)
 
 bAura.addEventListener('click', botaoAura)
+
