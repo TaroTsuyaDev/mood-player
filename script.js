@@ -27,18 +27,18 @@ function botaoTriste () {
 
 function botaoNerd () {
     document.body.style.backgroundColor = "#E74C3C";
-    PlayerImg.src = "https://i.scdn.co/image/ab67616d00001e021e2f9ae8632b51154580ac8e";
+    PlayerImg.src = "https://i.scdn.co/image/ab67616d00001e02aa5b96310236aab87a4caf3e";
     PlayerTxt.style.color = "white";
     PlayerTxt.innerText = "";
-    PlayerTxt.innerText = "Rap do Itachi";
+    PlayerTxt.innerText = "Half Past Monday";
     musica.src = "half past monday_spotdown.org.mp3";
 }
 
 function botaoAura () {
     document.body.style.backgroundColor = "#9B59B6";
-    PlayerImg.src = "https://i.scdn.co/image/ab67616d00001e02550c08bd67e6d175e2dc463b";
+    PlayerImg.src = "https://i.scdn.co/image/ab67616d00001e02ba5db46f4b838ef6027e6f96";
     PlayerTxt.innerText = "";
-    PlayerTxt.innerText = "Cute Depressed";
+    PlayerTxt.innerText = "Shape of You";
     PlayerTxt.style.color = "white";
     musica.src = "Shape of You_spotdown.org.mp3";
 }
@@ -53,6 +53,7 @@ bSad.addEventListener('click', botaoTriste)
 bNerd.addEventListener('click', botaoNerd)
 
 bAura.addEventListener('click', botaoAura)
+
 
 
 
