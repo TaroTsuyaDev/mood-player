@@ -31,7 +31,7 @@ function botaoNerd () {
     PlayerTxt.style.color = "white";
     PlayerTxt.innerText = "";
     PlayerTxt.innerText = "Rap do Itachi";
-    musica.src = "SpotiDownloader.com - Rap do Itachi_ Essa Dor Que Causei... (NERD HITS) - 7 Minutoz.mp3";
+    musica.src = "half past monday_spotdown.org.mp3";
 }
 
 function botaoAura () {
@@ -40,7 +40,7 @@ function botaoAura () {
     PlayerTxt.innerText = "";
     PlayerTxt.innerText = "Cute Depressed";
     PlayerTxt.style.color = "white";
-    musica.src = "SpotiDownloader.com - CUTE DEPRESSED - Dyan Dxddy.mp3";
+    musica.src = "Shape of You_spotdown.org.mp3";
 }
 
 
@@ -53,6 +53,7 @@ bSad.addEventListener('click', botaoTriste)
 bNerd.addEventListener('click', botaoNerd)
 
 bAura.addEventListener('click', botaoAura)
+
 
 
 
